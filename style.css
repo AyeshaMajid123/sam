@@ -18,10 +18,11 @@
     background-color:rgb(232, 241, 250);
 }
 #counsellors{
-    padding:20px;
-    border-style:solid;
-    border-color:rgb(112, 255, 155);
+    border-bottom:2px solid rgb(112, 255, 155);
+    border-left:2px solid rgb(112, 255, 155);
+    border-right:2px solid rgb(112, 255, 155);
     background-color:rgb(222, 255, 213);
+    margin-bottom:20px;
 }
 #report{
     padding:20px;
@@ -51,6 +52,13 @@
     font-weight: bold;
     font-style: inherit;
     font-size: 40px;
+    background-color:rgb(222, 255, 213);
+    margin-bottom: 0px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border-right:2px solid rgb(112, 255, 155);
+    border-left:2px solid rgb(112, 255, 155);
+    border-top:2px solid rgb(112, 255, 155);
 }
 #report_label{
 	font-family: 'Montserrat', sans-serif;
@@ -74,3 +82,21 @@
 .navbar-inverse .navbar-brand {
     color: pink;
 }  
+.modal-content
+{
+  margin-top: 100px;
+}
+.consdiv{
+    display:flex;
+    justify-content: center;
+    background-color: coral;
+}
+.cons-style{
+   cursor: pointer;
+   border-radius: 15px;
+   padding:5px;
+   border:2px solid rgb(112, 255, 155);
+}
+.tp1{
+    margin-top:10px;
+}
